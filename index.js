@@ -61,6 +61,14 @@ var write = Q.denodeify(fs.writeFile);
                             save_file(src);
                         }
                     });
+                    $('img').each(function(){
+                        var code = $(this);
+                        var src = code.attr("src");
+                        console.log(src);
+                        if(src && src.indexOf('http') == -1  && src.indexOf('//') == -1) {
+                            save_file(src);
+                        }
+                    });
                 }
                 return write(file_path, data.data);
             })
