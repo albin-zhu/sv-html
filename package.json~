@@ -1,0 +1,19 @@
+{
+  "name": "sv-html",
+  "version": "0.0.0",
+  "description": "sav html",
+  "main": "index.js",
+  "scripts": {
+    "test": "sv-html"
+  },
+  "author": "albin <albinyewen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "~0.19.0",
+    "promise": "~7.1.1",
+    "q": "~1.4.1",
+    "urllib": "~2.7.0",
+    "mkdirp": "~0.5.1",
+    "bluebird": "~3.1.5"
+  }
+}
